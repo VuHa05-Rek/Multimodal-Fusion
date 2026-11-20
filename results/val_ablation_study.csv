@@ -1,0 +1,8 @@
+Combination,Modality,accuracy,macro_precision,macro_recall,macro_f1
+0a. Tabular-Only (Baseline),Tab,0.7675,0.5622,0.7037,0.6093
+0b. Image-Only (Baseline),Img,0.9159,0.8154,0.9038,0.8551
+0c. Text-Only (Baseline),Txt,0.9136,0.8086,0.9153,0.8541
+1. Image + Tabular (w/o Text),Img + Tab,0.9227,0.8289,0.9194,0.8689
+2. Image + Text (w/o Tabular),Img + Txt,0.9442,0.8746,0.9406,0.9046
+3. Text + Tabular (w/o Image),Txt + Tab,0.9194,0.8191,0.9358,0.8666
+4. All 3 Modalities (Full Fusion),Img + Txt + Tab,0.9459,0.8749,0.947,0.9073

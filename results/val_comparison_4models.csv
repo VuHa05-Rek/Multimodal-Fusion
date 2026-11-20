@@ -1,0 +1,5 @@
+Model,accuracy,macro_precision,macro_recall,macro_f1
+1. Tabular-Only (MLP),0.7675,0.5622,0.7037,0.6093
+2. Image-Only (ResNet50),0.9159,0.8154,0.9038,0.8551
+3. Text-Only (DistilBERT),0.9136,0.8086,0.9153,0.8541
+4. Multi-Modal Fusion (Ours),0.9463,0.8768,0.9425,0.9066
